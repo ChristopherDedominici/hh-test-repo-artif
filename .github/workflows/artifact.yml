@@ -1,4 +1,4 @@
-name: hardhat test artifact
+name: hardhat create artifact
 
 on:
   push:
@@ -31,5 +31,5 @@ jobs:
       - name: Upload module directory
         uses: actions/upload-artifact@v3
         with:
-          name: module-artifact
+          name: module-artifact # name of the artifact
           path: ./dist # This uploads the entire repository as an artifact, you might want to specify just the module directory
