@@ -1,0 +1,12 @@
+{
+  "name": "hh-test-repo-artif",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test specified\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
