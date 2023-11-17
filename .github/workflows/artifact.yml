@@ -32,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: module-artifact
-          path: . # This uploads the entire repository as an artifact, you might want to specify just the module directory
+          path: ./dist # This uploads the entire repository as an artifact, you might want to specify just the module directory
