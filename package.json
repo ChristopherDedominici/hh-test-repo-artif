@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"no test specified\"",
     "build": "rm -rf ./dist && mkdir dist && mkdir -p dist/src && cp src/index.js ./dist/src/index.js",
-    "pack": "npm pack"
+    "build-and-pack": "pnpm build && pnpm pack"
   },
   "files": [
     "dist/"
