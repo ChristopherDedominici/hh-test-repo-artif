@@ -28,8 +28,10 @@ jobs:
         run: pnpm test
       - name: Build
         run: pnpm build
+      - name: Pack module
+        run: pnpm pack
       - name: Upload module directory
         uses: actions/upload-artifact@v3
         with:
           name: module-artifact # name of the artifact
-          path: ./dist # This uploads the entire repository as an artifact, you might want to specify just the module directory
+          path: ./upload-artifact-*.tgz # upload any package version
